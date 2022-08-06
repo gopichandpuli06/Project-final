@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MobileKart.com</title>
+    <link href='stylesheet.css' rel='stylesheet' type='text/css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <header> <!--Header referred from https://www.youtube.com/watch?v=qNifU_aQRio&t=195s-->
+        <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light"> <!--fixed-top  fix the header even when scrolling down-->
+          <div class="container">
+            <a 
+                href="index.html" 
+                class="navbar-brand mb-0 h1">
+                <img 
+                class="d-inline-block align-top"
+                src="logo.png" width="30" height="30"/>
+                MobileKart
+            </a>
+            <button               
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarnav"
+            class="navbar-toggler"
+            aria-controls="navbarnav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">                <!--this executes when the page size is reduced all the links in header comes to dropdown toggles -->
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+            class="collapse navbar-collapse" 
+            id="navbarnav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">                    <!--active link-->
+                <a href="index.html" class="nav-link active"> <!--active link place in both the lines li and a tag-->
+                  Home
+                </a>
+              </li>
+              <li class="nav-item active dropdown">   
+                <a href="#" class="nav-link dropdown-toggle"
+                id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+                  product
+                </a>
+                <ul class="dropdown-menu"                       
+                aria-labelledby="navbarDropdown">              <!--dropdown for product list menu starts here-->
+                  <li><a href="#"
+                    class=" nav-link dropdown-toggle"
+                    id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">Apple</a>
+                      <ul class="dropdown-menu"
+                          aria-labelledby="navbarDropdown">
+                        <li><a href="#"
+                          class="dropdown-item">Iphone 13pro Max</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                  <li><a href="#"
+                    class="dropdown-item">Samsung</a></li>
+                  <li><a href="#"
+                    class="dropdown-item">Pixel</a></li>
+              </ul>
+              </li>
+              <li class="nav-item">   
+                <a href="#" class="nav-link">
+                  WishList
+                </a>
+              </li>
+              <li class="nav-item">   
+                <a href="#" class="nav-link">
+                  CheckOut
+                </a>
+              </li>
+            </ul>
+            </div>  
+            <form class="d-flex">
+              <input type="text" class="form-control me-2"> <!--button styling-->
+              <button type="submit"
+              class="btn btn-outline-success">Search</button>
+            </form>
+            <div class="nav-login-left">
+              <a href="#" class="nav-link"> sign in </a>
+            </div>
+            <div class="nav-login">
+              |
+            </div>
+            <div class="nav-login-right">
+              <a href="#" class="nav-link"> sign On</a>
+            </div>
+
+          </div>
+        </nav>
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+    </header>
+
+    <main>
+    </main>
+    
+    <footer>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
